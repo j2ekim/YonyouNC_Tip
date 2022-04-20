@@ -363,4 +363,4 @@ POC:
 
 [『渗透测试』用友各种漏洞整理](https://mp.weixin.qq.com/s/tKqGdMlzAhKuSLtUv6E9-g)
 
-[用友NC历史漏洞(含POC)](
+[用友NC历史漏洞(含POC)](https://mp.weixin.qq.com/s/xVKuJb3DbKH0em0HoMZ4ZQ)
