@@ -42,7 +42,7 @@
 /ierp/bin/prop.xml
 ```
 
-```
+```xml
 <dataSource>
 <dataSourceName>nc</dataSourceName>
 <oidMark>C2</oidMark>
