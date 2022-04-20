@@ -4,9 +4,9 @@
 
 
 
-## 0x01 漏洞检测工具
+## 0x01 工具
 
-[用友NC漏洞检测](https://github.com/kezibei/yongyou_nc_poc)
+[用友NC_POC检测](https://github.com/kezibei/yongyou_nc_poc)
 
 [用友NC-OA漏洞合集](https://github.com/asdasdqkq1/yonyou-nc-exp)
 
