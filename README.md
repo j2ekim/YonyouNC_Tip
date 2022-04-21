@@ -350,6 +350,9 @@ POC:
 ![image-20220420135719084](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420135719084.png)
 
 ### 3.9 控制台密码绕过
+```
+/uapws/index.jsp
+```
 
 账户密码随便填，抓包将返回包0改为1,即可任意用户登录
 
