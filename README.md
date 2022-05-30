@@ -75,7 +75,7 @@
 http://x.x.x.x/NCFindWeb?service=IPreAlertConfigService&filename=/
 ```
 
-![image-20220420110517903](https://raw.githubusercontent.com/j2ekim/blog-image/main/image//image-20220420110517903.png)
+![image-20220420110517903](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420110517903.png)
 
 ### 3.2 `bsh.servlet.BshServlet` 远程命令执行漏洞
 
