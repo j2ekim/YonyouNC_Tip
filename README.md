@@ -75,7 +75,7 @@
 http://x.x.x.x/NCFindWeb?service=IPreAlertConfigService&filename=/
 ```
 
-![image-20220420110517903](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420110517903.png)
+![image-20220420110517903](https://raw.githubusercontent.com/j2ekim/blog-image/main/image//image-20220420110517903.png)
 
 ### 3.2 `bsh.servlet.BshServlet` 远程命令执行漏洞
 
@@ -148,7 +148,7 @@ http://x.x.x.x/service/~vrm/bsh.servlet.BshServlet
 http://x.x.x.x/service/~yer/bsh.servlet.BshServlet
 ```
 
-![image-20220420113613160](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420113613160.png)
+![image-20220420113613160](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420113613160.png)
 
 ### 3.3 用友 `NCCloud FS` 文件管理 `SQL` 注入
 
@@ -162,7 +162,7 @@ Fofa:
 
 `nccloud` 登录界面：
 
-![image-20220420125901020](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420125901020.png)
+![image-20220420125901020](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420125901020.png)
 
 文件服务器管理登录页面：
 
@@ -170,7 +170,7 @@ Fofa:
 http://x.x.x.x/fs/
 ```
 
-![image-20220420130019063](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420130019063.png)
+![image-20220420130019063](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420130019063.png)
 
 `username`参数存在注入，抓取登录数据包：
 
@@ -193,7 +193,7 @@ Upgrade-Insecure-Requests: 1
 sqlmap -r text.txt -p username 
 ```
 
-![image-20220420130305834](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420130305834.png)
+![image-20220420130305834](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420130305834.png)
 
 
 
@@ -325,11 +325,11 @@ POC:
 /yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20MD5(1))
 ```
 
-![image-20220420133908432](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420133908432.png)
+![image-20220420133908432](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420133908432.png)
 
 `sqlmap`跑一下
 
-![image-20220420134720251](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420134720251.png)
+![image-20220420134720251](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420134720251.png)
 
 
 
@@ -343,7 +343,7 @@ POC:
 /uapws/service/nc.uap.oba.update.IUpdateService?wsdl
 ```
 
-![image-20220420135051396](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420135051396.png)
+![image-20220420135051396](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420135051396.png)
 
 
 
@@ -355,7 +355,7 @@ POC:
 /uapws/service
 ```
 
-![image-20220420135719084](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420135719084.png)
+![image-20220420135719084](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420135719084.png)
 
 ### 3.9 控制台密码绕过
 
@@ -365,9 +365,9 @@ POC:
 
 账户密码随便填，抓包将返回包0改为1,即可任意用户登录
 
-![image-20220420140418744](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420140418744.png)
+![image-20220420140418744](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420140418744.png)
 
-![image-20220420140203418](https://fastly.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220420140203418.png)
+![image-20220420140203418](https://raw.githubusercontent.com/j2ekim/blog-image/main/image/image-20220420140203418.png)
 
 ## 0x04 参考
 
